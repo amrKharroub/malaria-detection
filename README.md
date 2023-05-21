@@ -1,0 +1,1 @@
+# malaria-thick-smear-classifier
