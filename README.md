@@ -14,7 +14,7 @@ This notebook is to determine what are the optimum anchor box bimensions to be u
 
 The technique used to find the size and aspect ratio of the anchor boxes is by clsutering the bboxes to a set of anchors using K-MEANS clustering algorithm and then updating the anchor boxes sizing based on iou distance.
 
-## [Model Training](Model Training.ipynb)
+## [Model Training](ModelTraining.ipynb)
 
 This notebook fine-tune faster-rcnn pytorch model with roi-align and fpn(feature peramid network) with resnet-50 backbone. It uses mixed-percision training as well as Exponential learning rate scheduler for optimum training.
 
