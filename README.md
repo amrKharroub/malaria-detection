@@ -44,12 +44,12 @@ IoU metric: bbox
  
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = 0.625
 
-## ![calculating mean and std for images](bbbc_mean_std.py)
+## [calculating mean and std for images](bbbc_mean_std.py)
 
 This script calculates the mean and standard deviation(std) for the images in the dataset. This is used to normalize the images before feeding it to the network avoiding any biases in the training process. Normalization helps to ensure that all input data falls within a similar range and has a similar distribution, making it easier for the neural network to learn and generalize from the data.
 
 
- ## ![inference script](inference.py)
+ ## [inference script](inference.py)
 
  This script is for running the model and displaying the results.
  
